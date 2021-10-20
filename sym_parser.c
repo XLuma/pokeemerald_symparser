@@ -55,5 +55,6 @@ int main(void)
 	while (sym_array[i])
 		free(sym_array[i]);
 	fclose(sym);
+	fclose(txt);
 	return (0);
 }
